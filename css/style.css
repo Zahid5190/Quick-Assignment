@@ -1,0 +1,208 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.header_part{
+ width: 90%;
+ margin-left: 5%;
+ overflow: hidden;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ 
+}
+
+.logo{
+width: 20%;
+float: left;
+}
+
+.logo img{
+  width: 30%;
+}
+
+nav{
+ width: 50%;
+ float: right;
+ overflow: hidden;
+}
+
+nav ul{
+list-style: none;
+overflow: hidden;
+float: right;
+
+}
+
+nav ul li{
+float: left;
+margin-left: 30px;
+
+}
+
+nav ul li a{
+text-decoration: none;
+font-size: 20px;
+text-transform: capitalize;
+color: black;
+
+}
+nav ul li a:hover{
+color: chocolate;
+}
+
+.content_part{
+ width: 70%;
+ margin-left: 15%;
+}
+.content_part h1{
+color: #0F2656;
+font-size: 40px;
+margin-top: 40px;
+text-align: center;
+}
+.content_part h2{
+color: #008AFF;
+font-size: 40px;
+text-align: center;
+margin-top: 10px;
+}
+.content_part p{
+color: #8386BD;
+font-size: 20px;
+margin-top: 10px;
+text-align: center;
+}
+
+.img{
+ text-align: center;
+ margin: 30px 0px;
+}
+.img img{
+  width: 45%;
+  text-align: center;
+}
+.contents{
+  overflow: hidden;
+}
+
+.left_content{
+  width: 48%;
+  float: left;
+}
+.left_content h1{
+  text-align: right;
+  color: #F15767;
+}
+.left_content p{
+  text-align: right;
+}
+
+.right_content{
+  width: 48%;
+  float: right;
+}
+
+.right_content h1{
+ text-align: left;
+ color: #0F2656;
+ text-transform: capitalize;
+}
+
+.features{
+ width: 90%;
+ margin-left: 5%;
+ overflow: hidden;
+ margin-top: 50px;
+ margin-bottom: 50px;
+  
+}
+.features1{
+  width: 30%;
+  background-color: #FDEBED;
+  float: left;
+  text-align: center;
+  padding: 30px 0;
+  margin-left: 50px;
+
+}
+.features1 img{
+  
+  width: 50%;
+  padding-top: 10px;
+}
+.features1 h2{
+ text-align: left;
+ padding: 10px;
+}
+
+.features1 p{
+  text-align: left;
+  padding: 10px;
+}
+
+
+.features2{
+  width: 30%;
+  background-color: #EBF9F4;
+  float: left;
+  margin-left: 5%;
+  text-align: center;
+  padding: 30px 0;
+  margin-left: 20px;
+  
+}
+.features2 img{
+  width: 47%;
+  padding-top: 10px;
+}
+.features2 h2{
+  text-align: left;
+  padding: 10px;
+}
+
+.features2 p{
+  text-align: left;
+  padding: 10px;
+}
+
+
+.features3{
+  width: 30%;
+  background-color: #FFF7E8;
+  float: right;
+  text-align: center;
+  padding: 30px 0;
+  margin-right: 50px;
+}
+.features3 img{
+  width: 40%;
+  
+}
+.features3 h2{
+  text-align: left;
+  padding: 10px;
+}
+
+.features3 p{
+  text-align: left;
+  padding: 10px;
+}
+
+footer{
+  background-color: #008AFF;
+  text-align: center;
+  padding: 30px 0;
+}
+footer p{
+  color: rgba(250, 240, 240, 0.932);
+  font-size: 20px;
+
+}
+footer p span{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
